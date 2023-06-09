@@ -106,7 +106,7 @@ int conversion(char c[50],int *p){
 int main(){
 char aux[50],tm[50],hr[10],min[10];
 int h=0,m=0,ch,cm;
-do{
+do{ puts("Note: all given in 24 hours format time example(23:00 not 11:00(pm))");
 	puts("give the hour");
 	scanf("%d",&h);
 	puts("give the minute");
@@ -169,6 +169,6 @@ conversion(min,&cm);
 		ok=1;
 	}
 }while(ok==0);
-PlaySound(TEXT("C:\\Users\\Lenovo\\Desktop\\1643555323zlu.wav"),NULL,SND_SYNC) ;
+PlaySound(TEXT("ding dong.wav"),NULL,SND_SYNC) ;
 
 }

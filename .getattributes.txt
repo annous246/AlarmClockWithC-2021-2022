@@ -1,1 +1,0 @@
-* liguist-language=c
